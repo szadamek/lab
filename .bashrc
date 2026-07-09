@@ -14,15 +14,15 @@ alias fishies=asciiquarium
 
 # kubectl
 
-alias k='kubectl'
+alias k=kubectl
 
 source /etc/bash_complteion
 source <(kubectl completion bash)
 complete -o default -F __start_kubectl k
 
-alias kgp='kubectl get pods'
-alias kc='kubectx'
-alias kn='kubens'
+alias kgp=kubectl get pods
+alias kc=kubectx
+alias kn=kubens
 
 alias kcs='kubectl config use-context admin@homelab-staging'
 alias kcp='kubectl config use-context admin@homelab-production'
